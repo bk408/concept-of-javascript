@@ -1,0 +1,32 @@
+- The Function which does't have name known as a anonymous function.
+
+
+- Hoisting is a concept that enables us to extract values of variables and functions even before initializing/assigning value without getting errors and this happens during the 1st phase (memory creation phase) of the Execution Context.
+
+🚀 Features of Hoisting:
+
+- In JavaScript, Hoisting is the default behavior of moving all the declarations at the top of the scope before code execution.
+ Basically, it gives us an advantage that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local
+
+- It allows us to call functions before even writing them in our code.
+
+🚀 Recursive Function:
+
+- Recursive means something that repeats itself or refers back to itself.
+
+- Recursive function have two main parts
+
+(1) Base Case: This is the condition under which the recursion should stop. 
+When the base case condition is met, the function returns a result without making any further recursive calls. 
+It's essentially the "exit" condition for the recursion.
+
+(2) Recursive Case: This is where the function calls itself with modified or smaller inputs to make progress toward the base case. 
+In the recursive case, the function does some work and often includes a recursive call to itself. 
+This continues until the base case is reached.
+
+⚡ Here's the typical flow of a recursive function:
+
+🌟 The function checks if the base case condition is met.
+🌟 If the base case is met, the function returns a result and terminates the recursion.
+🌟 If the base case is not met, the function enters the recursive case, which may involve some work and a recursive call with a modified input.
+🌟 The process repeats, with each recursive call getting closer to the base case, until the base case is reached and the recursion unwinds.
