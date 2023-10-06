@@ -197,5 +197,3 @@ function capitalizeFirstLetter(fruit) {
 const capitalizedFruits = fruits.map(capitalizeFirstLetter);
 
 console.log(capitalizedFruits);
-
-

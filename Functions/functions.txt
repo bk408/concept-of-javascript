@@ -1,3 +1,5 @@
+🚀 Function:- A Function is a block of code that performs a specific task.
+
 - The Function which does't have name known as a anonymous function.
 
 
